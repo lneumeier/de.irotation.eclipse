@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/grey.css"
+            id="de.irotation.eclipse.theme.grey"
+            label="IRotation Grey">
+      </theme>
+      <stylesheet
+            uri="css/preferences.css">
+         <themeid
+               refid="de.irotation.eclipse.theme.grey">
+         </themeid>
+      </stylesheet>
+   </extension>
+
+</plugin>

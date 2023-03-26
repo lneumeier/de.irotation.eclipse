@@ -1,0 +1,249 @@
+.MTrimmedWindow {
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG';
+}
+
+.MTrimmedWindow.topLevel {
+  margin-top:    0px;
+  margin-bottom: 0px;
+  margin-left:   2px;
+  margin-right:  2px;
+}
+
+.MPartStack {
+  swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+  swt-selected-tab-fill: '#de-irotation-eclipse-theme-PART_BG';
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
+  swt-outer-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  swt-inner-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  padding: 2px 2px 2px 2px;
+  swt-tab-outline: '#de-irotation-eclipse-theme-PART_BORDER';
+  swt-shadow-visible: false;
+  swt-mru-visible: false;
+  swt-corner-radius: 6px;
+  font-family: '#org-eclipse-ui-workbench-TAB_TEXT_FONT';
+}
+
+.MPartStack.active {
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-ACTIVE_UNSELECTED_TOOLBAR_1' '#de-irotation-eclipse-theme-ACTIVE_UNSELECTED_TOOLBAR_2' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
+}
+
+.MPartStack.empty {
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-SHELL_BG' 99% 100%;
+}
+
+#PerspectiveSwitcher  {
+  eclipse-perspective-keyline-color: '#de-irotation-eclipse-theme-SHELL_BG';
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG';
+  handle-image: none;
+}
+
+.MToolControl.TrimStack {
+  frame-image:  url(./win7TSFrame.png);
+  handle-image:  url(./win7Handle.png);
+  frame-cuts: 5px 1px 5px 16px;
+}
+
+.MToolBar.Draggable {
+  handle-image:  url(./dragHandle.png);
+}
+
+.MToolControl.Draggable {
+  handle-image:  url(./dragHandle.png);
+}
+
+.DragFeedback {
+  background-color: COLOR-WIDGET-NORMAL-SHADOW;
+}
+
+.ModifiedDragFeedback {
+  background-color: #A0A000;
+}
+
+CTabItem,
+CTabItem CLabel {
+  font-style: normal;
+  font-weight: normal;
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+CTabItem:selected,
+CTabItem:selected CLabel {
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+CTabItem.busy {
+  font-style: italic;
+}
+
+CTabItem.highlighted {
+  font-weight: bold;
+}
+
+.MTrimBar {
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG';
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar {
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG';
+}
+
+CTabFolder {
+  swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+  swt-selected-tab-fill: '#de-irotation-eclipse-theme-PART_BG';
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
+  swt-outer-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  swt-inner-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  padding: 0px;
+  swt-tab-outline: '#de-irotation-eclipse-theme-PART_BORDER';
+  swt-shadow-visible: false;
+  swt-mru-visible: false;
+  swt-corner-radius: 6px;
+  font-family: '#org-eclipse-ui-workbench-TAB_TEXT_FONT';
+}
+
+CTabFolder.MArea .MPartStack, CTabFolder.MArea .MPartStack.active {
+  swt-shadow-visible: false;
+}
+
+CTabFolder Canvas {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Tree {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Table {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+ScrolledForm {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form {
+  background: '#de-irotation-eclipse-theme-PART_BG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  text-background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+  swt-background-mode: 'force';
+  h-bottom-keyline-1-color: '#de-irotation-eclipse-theme-PART_BG';
+  h-bottom-keyline-2-color: '#de-irotation-eclipse-theme-PART_BORDER';
+}
+
+Form Composite {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form Composite Label {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form Composite Button {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form FormHeading {
+  background: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form FormHeading ToolBar {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form FormHeading TitleRegion {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form FormHeading TitleRegion Label {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form FormHeading TitleRegion BusyIndicator {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+  background-color-titlebar: '#de-irotation-eclipse-theme-PART_BG';
+  background-color-gradient-titlebar: '#de-irotation-eclipse-theme-PART_BG';
+  border-color-titlebar: '#de-irotation-eclipse-theme-PART_BG';
+  swt-titlebar-color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Button {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Label {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Tree {
+  background-color: '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Table {
+  background-color: '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Composite StagingView-19 {
+	background-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Composite * StyledText {
+  background-color: '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Hyperlink {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+}
+
+Sash {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+FormText {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+#org-eclipse-ui-console-ConsoleView .MPart > Composite,
+#org-eclipse-ui-console-ConsoleView .MPart StyledText,
+#org-eclipse-ui-console-ConsoleView .MPart PageBook Label {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+.MPartStack.active #org-eclipse-ui-console-ConsoleView .MPart > Composite,
+.MPartStack.active #org-eclipse-ui-console-ConsoleView .MPart StyledText,
+.MPartStack.active #org-eclipse-ui-console-ConsoleView .MPart PageBook Label {
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
+}
