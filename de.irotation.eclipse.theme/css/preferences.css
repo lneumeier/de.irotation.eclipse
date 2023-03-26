@@ -1,11 +1,11 @@
-IEclipsePreferences#org-eclipse-ui-editors:de-irotation-eclipse-ui-theme { 
+IEclipsePreferences#org-eclipse-ui-editors:de-irotation-eclipse-theme { 
   preferences:
     'AbstractTextEditor.Color.Background.SystemDefault=false'
     'AbstractTextEditor.Color.Background=200,200,200'
     'lineNumberColor=0,0,0'
 }
 
-IEclipsePreferences#org-eclipse-ui-workbench:de-irotation-eclipse-ui-theme { 
+IEclipsePreferences#org-eclipse-ui-workbench:de-irotation-eclipse-theme { 
   preferences:
     'DECORATIONS_COLOR=128,64,0'
     'CONTENT_ASSIST_BACKGROUND_COLOR=200,200,200'
@@ -15,7 +15,7 @@ IEclipsePreferences#org-eclipse-ui-workbench:de-irotation-eclipse-ui-theme {
     'org.eclipse.ui.workbench.HOVER_BACKGROUND=200,200,200'
 }
 
-IEclipsePreferences#org-eclipse-debug-ui:de-irotation-eclipse-ui-theme { 
+IEclipsePreferences#org-eclipse-debug-ui:de-irotation-eclipse-theme { 
   preferences:
     org.eclipse.debug.ui.consoleBackground=200,200,200
 }

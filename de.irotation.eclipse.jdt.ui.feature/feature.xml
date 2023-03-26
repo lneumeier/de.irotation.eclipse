@@ -2,7 +2,7 @@
 <feature
       id="de.irotation.eclipse.jdt.ui"
       label="IRotation JDT UI"
-      version="3.0.0"
+      version="3.1.0"
       provider-name="Lars Neumeier">
 
    <description>
