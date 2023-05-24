@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/de.irotation.eclipse.jdt.core_3.0.0.jar" id="de.irotation.eclipse.jdt.core" version="3.1.0">
+   <feature url="features/de.irotation.eclipse.jdt.core_3.2.0.jar" id="de.irotation.eclipse.jdt.core" version="3.2.0">
       <category name="de.irotation.eclipse.jdt.core"/>
    </feature>
-   <feature url="features/de.irotation.eclipse.theme_3.0.0.jar" id="de.irotation.eclipse.theme" version="3.1.0">
+   <feature url="features/de.irotation.eclipse.theme_3.2.0.jar" id="de.irotation.eclipse.theme" version="3.2.0">
       <category name="de.irotation.eclipse.theme"/>
    </feature>
    <category-def name="de.irotation.eclipse.jdt.core" label="irotation-jdt-core"/>

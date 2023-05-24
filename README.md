@@ -4,7 +4,6 @@ Project for Eclipse Plugin extensions
 
 - IRotation Grey Theme
 - JDT-Core LFFormatter
-- JDT-UI Jump from source class to test class
 
 # Grey Theme for Eclipse 4.x
 
