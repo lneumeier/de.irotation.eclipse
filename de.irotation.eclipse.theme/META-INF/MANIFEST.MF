@@ -4,6 +4,6 @@ Bundle-Name: IRotation Theme
 Bundle-SymbolicName: de.irotation.eclipse.theme;singleton:=true
 Bundle-Version: 3.2.0
 Bundle-Vendor: Lars Neumeier
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.eclipse.e4.ui.css.swt.theme;bundle-version="0.9.300"
 Automatic-Module-Name: de.irotation.eclipse.theme
